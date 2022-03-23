@@ -1,5 +1,6 @@
-{
+* {
     font-family: Arial, Helvetica, sans-serift;
+    font-size: 16px;    
 }
 
 body {
@@ -7,9 +8,71 @@ body {
 }
 
 main {
-    background-color: white;
-    width: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+    border-radius: 25px;
+}
+
+.lado {
+    float: right;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(58, 0, 112);
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgb(58, 0, 112);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(58, 0, 112);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(26, 26, 255);
+}
+
+/*footer*/
+#myFooter {
+    background-color: #313438;
+    color: white;
+    border-radius: 5px;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 14px;
+    color: white;
+    text-align: right;
+    
+    margin: 1000;
+    padding: 100;
+    line-height: 68px;
+    font-weight: normal;
+    /*margin-top: 30px;*/
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
 }
